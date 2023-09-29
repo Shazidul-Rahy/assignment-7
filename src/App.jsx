@@ -11,7 +11,9 @@ function App() {
     <>
 
     <Header></Header>
-    <div><Blogs></Blogs></div>
+    <div className="w-2/3 grid grid-rows-3 grid-flow-col gap-4">
+      <Blogs></Blogs>
+      </div>
       
     </>
   )
