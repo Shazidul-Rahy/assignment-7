@@ -6,8 +6,8 @@ const Blog = ({blog}) => {
 
     return (
         <div>
-            <div className="card w-80 bg-base-100 shadow-xl">
-            <figure><img className='w-max h-auto' src={img} alt="" /></figure>
+            <div className="card w-96 bg-base-100 shadow-xl">
+            <figure><img className='w-96 h-auto' src={img} alt="" /></figure>
                 <div className="card-body">
             <h2 className="card-title">{course_name}</h2>
              <p className='font-normal text-sm'>{course_details}</p>
@@ -16,7 +16,7 @@ const Blog = ({blog}) => {
                 <p>Credit: {credit_hour}</p>
              </div>
             <div className="card-actions justify-center">
-            <button className="btn btn-primary">Select</button>
+            <button className="btn btn-primary w-10/12 h-auto">Select</button>
             </div>
                  </div>
             </div>
