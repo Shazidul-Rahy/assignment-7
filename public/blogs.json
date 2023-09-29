@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "img": "https://www.linkpicture.com/q/Rectangle-2_15.png",
+      "course_name": "Introduction to Web Development",
+      "credit_hour": 3,
+      "price": 199.99,
+      "course_details": "Learn the basics of HTML, CSS, and JavaScript to build simple web pages."
+    },
+    {
+      "id": 2,
+      "img": "https://www.linkpicture.com/q/Rectangle-2-1_3.png",
+      "course_name": "Data Science Fundamentals",
+      "credit_hour": 4,
+      "price": 249.99,
+      "course_details": "Explore data analysis, visualization, and machine learning concepts."
+    },
+    {
+      "id": 3,
+      "img": "https://www.linkpicture.com/q/Rectangle-2-2_1.png",
+      "course_name": "Mobile App Development with React Native",
+      "credit_hour": 5,
+      "price": 299.99,
+      "course_details": "Build cross-platform mobile apps using React Native framework."
+    },
+    {
+      "id": 4,
+      "img": "https://www.linkpicture.com/q/Rectangle-2-3_2.png",
+      "course_name": "Introduction to Python Programming",
+      "credit_hour": 3,
+      "price": 199.99,
+      "course_details": "Learn the fundamentals of Python programming language."
+    },
+    {
+      "id": 5,
+      "img": "https://www.linkpicture.com/q/Rectangle-2-4_2.png",
+      "course_name": "Database Design and SQL Fundamentals",
+      "credit_hour": 4,
+      "price": 249.99,
+      "course_details": "Master database design principles and SQL querying."
+    },
+    {
+      "id": 6,
+      "img": "https://www.linkpicture.com/q/Rectangle-2-5_1.png",
+      "course_name": "Frontend Development with React",
+      "credit_hour": 3,
+      "price": 199.99,
+      "course_details": "Build interactive user interfaces using the React library."
+    },
+    {
+      "id": 7,
+      "img": "https://www.linkpicture.com/q/Rectangle-2-6_2.png",
+      "course_name": "Artificial Intelligence Basics",
+      "credit_hour": 4,
+      "price": 249.99,
+      "course_details": "Introduction to AI concepts and applications in real-world scenarios."
+    },
+    {
+      "id": 8,
+      "img": "https://www.linkpicture.com/q/Rectangle-3_11.png",
+      "course_name": "Full Stack Web Development",
+      "credit_hour": 6,
+      "price": 349.99,
+      "course_details": "Learn both frontend and backend development with modern web technologies."
+    },
+    {
+      "id": 9,
+      "img": "https://www.linkpicture.com/q/Rectangle-3-1_2.png",
+      "course_name": "Cybersecurity Fundamentals",
+      "credit_hour": 4,
+      "price": 249.99,
+      "course_details": "Explore basic principles of cybersecurity and ethical hacking."
+    }
+  ]
+  
