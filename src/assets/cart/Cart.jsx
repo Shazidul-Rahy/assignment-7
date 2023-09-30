@@ -1,6 +1,6 @@
 
 
-const Cart = () => {
+const Cart = ({hours}) => {
     
     
     return (

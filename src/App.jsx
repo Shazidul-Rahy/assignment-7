@@ -31,8 +31,8 @@ const btnHandle = hour => {
         <Blogs btnHandle={btnHandle}></Blogs>
         </div>
         <div className='w-96 h-max border-2 solid black rounded-lg mx-14 mb-10 lg:mb-0 px-5 mt-10 lg:mt-0'>
-        <Cart></Cart>
-        <CartName></CartName>
+        <Cart hours={hours}></Cart>
+        <CartName hours={hours}></CartName>
         <Credit hours={hours}></Credit>
         <Price></Price>
         </div>
