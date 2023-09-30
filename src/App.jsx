@@ -17,12 +17,12 @@ function App() {
 
      <Header></Header>
 
-      <div className='flex'>
+      <div className=' lg:flex lg:my-8'>
 
-        <div className='grid grid-cols-4 gap-4'>
+        <div>
         <Blogs></Blogs>
         </div>
-        <div className='w-80 h-max border-2 solid black rounded-lg mx-10'>
+        <div className='w-96 h-max border-2 solid black rounded-lg mx-14 mb-10 lg:mb-0 px-5 mt-10 lg:mt-0'>
         <Cart></Cart>
         <CartName></CartName>
         <Credit></Credit>
