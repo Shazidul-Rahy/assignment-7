@@ -18,7 +18,7 @@
     {
       "id": 3,
       "img": "https://www.linkpicture.com/q/Rectangle-2-2_1.png",
-      "course_name": "Mobile App Development with React Native",
+      "course_name": "Mobile App Development",
       "credit_hour": 5,
       "price": 299.99,
       "course_details": "Build cross-platform mobile apps using React Native framework."

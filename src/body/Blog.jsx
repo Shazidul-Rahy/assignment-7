@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Blog = ({blog}) => {
+const Blog = ({blog, btnHandle}) => {
     
     const {img, course_details, course_name, credit_hour,price} = blog
 
@@ -14,9 +14,10 @@ const Blog = ({blog}) => {
              <div className='grid grid-flow-col gap-24'>
                 <p>$ Price: {price}</p>
                 <p>Credit: {credit_hour}</p>
+                
              </div>
             <div className="card-actions justify-center">
-            <button className="btn btn-primary w-10/12 h-auto">Select</button>
+            <button onClick={()=> btnHandle(blog)} className="btn btn-primary w-10/12 h-auto">Select</button>
             </div>
                  </div>
             </div>
@@ -27,6 +28,12 @@ const Blog = ({blog}) => {
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired
+
 } 
+Blog.propTypes = {
+    btnHandle: PropTypes.func
+
+}
+ 
 
 export default Blog;

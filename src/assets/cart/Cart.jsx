@@ -1,6 +1,8 @@
 
 
 const Cart = () => {
+    
+    
     return (
         <div>
                 <div className="border-b-2 -px-2 py-4">

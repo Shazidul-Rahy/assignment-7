@@ -7,10 +7,18 @@ import Cart from './assets/cart/Cart'
 import Credit from './assets/cart/Credit'
 import Price from './assets/cart/price'
 import CartName from './assets/cart/CartName'
+import { useState } from 'react'
 
 
 function App() {
+
   
+  
+const [hours, setHours] = useState([])
+const btnHandle = hour => {
+  const remainingHours = [...hours, hour];
+  setHours(remainingHours);
+}
 
   return (
     <>
@@ -20,12 +28,12 @@ function App() {
       <div className=' lg:flex lg:my-8'>
 
         <div>
-        <Blogs></Blogs>
+        <Blogs btnHandle={btnHandle}></Blogs>
         </div>
         <div className='w-96 h-max border-2 solid black rounded-lg mx-14 mb-10 lg:mb-0 px-5 mt-10 lg:mt-0'>
         <Cart></Cart>
         <CartName></CartName>
-        <Credit></Credit>
+        <Credit hours={hours}></Credit>
         <Price></Price>
         </div>
         
