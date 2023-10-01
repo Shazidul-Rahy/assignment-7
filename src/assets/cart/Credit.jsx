@@ -1,20 +1,25 @@
 import PropTypes from 'prop-types';
+import CreditHour from './CreditHour';
 
 const Credit = ({hours}) => {
-
-    const [credit_hour] = hours;
+    
     return (
         <div className="border-b-2">
             
-            <p>Total Credit Hour : {}</p> 
+            <p className='flex'>Total Credit Hour : {
+                hours.map( n=> <CreditHour key={n.id} totalHour={n}></CreditHour>)
+                } </p>
+            
+             
             <hr />
         </div>
     );
 };
 
 Credit.propTypes = {
-    hours: PropTypes.object.isRequired
+    hours: PropTypes.func
 
-}
+} 
+
 
 export default Credit;
