@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import AddCart from './AddCart';
 
 
-const CartName = ({hours}) => {
+const CartName = ({cartNames}) => {
     
     return (
         <div>
@@ -10,7 +10,7 @@ const CartName = ({hours}) => {
                     <p>Course Name:</p>
                     <ul>
                     {
-                        hours.map(name => <AddCart key={name.id} name={name}></AddCart>)
+                        cartNames.map(name => <AddCart key={name.id} name={name}></AddCart>)
                     }
                         
                     </ul>
@@ -20,7 +20,7 @@ const CartName = ({hours}) => {
 };
 
 CartName.propTypes = {
-    hours: PropTypes.func
+    cartNames: PropTypes.func
 
 } 
 

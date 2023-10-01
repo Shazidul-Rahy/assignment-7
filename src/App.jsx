@@ -14,12 +14,17 @@ function App() {
 
   
   
-const [hours, setHours] = useState([])
-const btnHandle = hour => {
-  const remainingHours = [...hours, hour];
-  setHours(remainingHours);
-  console.log(hour)
+const [cartNames, setcartNames] = useState([])
+
+const btnHandle = cartName=> {
+  const addCourseName = [...cartNames, cartName];
+  setcartNames(addCourseName);
+
 }
+
+
+
+
 
   return (
     <>
@@ -33,8 +38,8 @@ const btnHandle = hour => {
         </div>
         <div className='w-96 h-max border-2 solid black rounded-lg mx-14 mb-10 lg:mb-0 px-5 mt-10 lg:mt-0'>
         <Cart></Cart>
-        <CartName hours={hours}></CartName>
-        <Credit hours={hours}></Credit>
+        <CartName cartNames={cartNames}></CartName>
+        <Credit cartNames={cartNames}></Credit>
         <Price></Price>
         </div>
         

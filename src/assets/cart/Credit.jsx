@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import CreditHour from './CreditHour';
 
-const Credit = ({hours}) => {
+const Credit = ({cartNames}) => {
     
     return (
         <div className="border-b-2">
             
             <p className='flex'>Total Credit Hour : {
-                hours.map( n=> <CreditHour key={n.id} totalHour={n}></CreditHour>)
-                } </p>
+                cartNames.map(totalHour=> <CreditHour key={totalHour.id} totalHour={totalHour}></CreditHour>)
+            }</p>
             
              
             <hr />
@@ -17,7 +17,7 @@ const Credit = ({hours}) => {
 };
 
 Credit.propTypes = {
-    hours: PropTypes.func
+    cartNames: PropTypes.func
 
 } 
 

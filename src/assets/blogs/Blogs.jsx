@@ -20,7 +20,7 @@ const Blogs = ({btnHandle}) => {
         
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-14 lg:px-0 lg:pl-20">
             {
-                blogs.map(n=> <Blog key={blogs.id} blog={n} btnHandle={btnHandle}></Blog>)
+                blogs.map(n=> <Blog key={blogs.id} blog={n} btnHandle={btnHandle} ></Blog>)
             }
             </div>
     
@@ -30,7 +30,10 @@ const Blogs = ({btnHandle}) => {
 
 Blogs.propTypes = {
     btnHandle: PropTypes.func
-
+  
+}
+Blogs.propTypes = {
+    btnHandle2: PropTypes.func
 }
 
 
